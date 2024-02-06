@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CDCBCB"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="160sp"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:text="BlogApp"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="150sp"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="160sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:text="Login"
+        android:textColor="#5E5B5B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="200sp"
+        app:strokeColor="#0E0E0E"
+        app:strokeWidth="4sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5sp"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:text="New here?"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="160sp"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/love_ya_like_a_sister"
+        android:text="Register"
+        android:textColor="#5E5B5B"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="200sp"
+        app:strokeColor="#D61818"
+        app:strokeWidth="4sp" />
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E4E4E"
+    tools:context=".ProfileActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="1dp"
+        app:cardCornerRadius="400dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/userProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profilegirl" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/cardView5"
+        app:layout_constraintStart_toStartOf="@+id/cardView5"
+        app:layout_constraintTop_toBottomOf="@+id/cardView5" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="230dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#C8C8C8"
+        app:layout_constraintEnd_toEndOf="@+id/userName"
+        app:layout_constraintStart_toStartOf="@+id/userName"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addNewarticleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/add_plus"
+        android:drawablePadding="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="ADD NEW ARTICLE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/divider3"
+        app:layout_constraintStart_toStartOf="@+id/divider3"
+        app:layout_constraintTop_toBottomOf="@+id/divider3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/yourArticlebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/image"
+        android:drawablePadding="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="YOUR ARTICLE"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/addNewarticleButton"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="@+id/addNewarticleButton"
+        app:layout_constraintTop_toBottomOf="@+id/addNewarticleButton" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/img_share"
+        android:drawablePadding="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="LOG OUT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/yourArticlebutton"
+        app:layout_constraintStart_toStartOf="@+id/yourArticlebutton"
+        app:layout_constraintTop_toBottomOf="@+id/yourArticlebutton" />
+</androidx.constraintlayout.widget.ConstraintLayout>
