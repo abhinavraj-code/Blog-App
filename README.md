@@ -32,18 +32,35 @@ Welcome to the Blog App, a cutting-edge native Android application designed to r
 
 ## Technology
 
- **XML**
-   - We use XML to design the app's user interface, ensuring a consistent and visually appealing layout.
-
- **Kotlin**
-   - Our app is built with Kotlin, which enhances performance and developer productivity.
-
- **Glide**
-   - We utilize the Glide library for fast and smooth image loading in blogs and user profiles.
-
- **Firebase**
-   - Firebase is used for secure data management and to facilitate smooth interaction between bloggers and readers.
-   - It supports authentication, data storage, and real-time features.
-
+ - **XML**
+ - **Kotlin**
+ - **Glide**
+ - **Firebase**
+ 
 ## Screenshots
-![Screenshot_20231222_141409](https://github.com/abhinavraj-code/Blog-App/assets/72371963/466c7f53-eac7-4a39-b0bb-1184fade0bb5)
+<p>
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot1.png" width="200" height="400" />
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot2.png" width="200" height="400" />
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot4.png" width="200" height="400" />
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot5.png" width="200" height="400" />
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot6.png" width="200" height="400" />
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot7.png" width="200" height="400" />
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot8.png" width="200" height="400" />
+   <img src="https://github.com/abhinavraj-code/Blog-App/blob/master/images/Screenshot%209.jpg" width="200" height="400" />
+</p>
+
+ ## Questions?🤔
+ 
+ Hit me on
+ 
+<a href="https://twitter.com/Abhinav84319011"><img src="https://user-images.githubusercontent.com/35039342/55471524-8e24cb00-5627-11e9-9389-58f3d4419153.png" width="60"></a>
+<a href="https://www.linkedin.com/in/abhinavkumar18/"><img src="https://user-images.githubusercontent.com/35039342/55471530-94b34280-5627-11e9-8c0e-6fe86a8406d6.png" width="60"></a>
+
+
+## How to Contribute
+1. Fork the the project
+2. Create your feature branch (git checkout -b my-new-feature)
+3. Make required changes and commit (git commit -am 'Add some feature')
+4. Push to the branch (git push origin my-new-feature)
+5. Create new Pull Request
+
