@@ -46,3 +46,4 @@ Welcome to the Blog App, a cutting-edge native Android application designed to r
    - It supports authentication, data storage, and real-time features.
 
 ## Screenshots
+![Screenshot_20231222_141409](https://github.com/abhinavraj-code/Blog-App/assets/72371963/466c7f53-eac7-4a39-b0bb-1184fade0bb5)
